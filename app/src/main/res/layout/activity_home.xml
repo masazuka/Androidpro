@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/b_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/body_building"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Champions do not stop if you reach your goal, find a bigger goal"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#130909"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/b_o"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
